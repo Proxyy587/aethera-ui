@@ -10,10 +10,8 @@ export default [
 			globals: globals.browser,
 		},
 		rules: {
-			// Disable 'react/react-in-jsx-scope' as it's not needed in React 17+
 			"react/react-in-jsx-scope": "off",
 
-			// Customize 'react/no-unescaped-entities' to allow certain entities
 			"react/no-unescaped-entities": [
 				"error",
 				{

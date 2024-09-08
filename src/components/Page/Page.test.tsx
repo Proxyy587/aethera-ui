@@ -1,3 +1,4 @@
+import React from "react"; // Add this to avoid the ESLint error
 import "@testing-library/jest-dom";
 import Page from ".";
 import { render } from "@testing-library/react";
@@ -28,7 +29,7 @@ describe("Page", () => {
 
 		// Assert
 		expect(container).toHaveStyle(`
-    background-color: #f5f5f5;
+      background-color: #f5f5f5;
     `);
 	});
 });

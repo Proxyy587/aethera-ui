@@ -1,4 +1,4 @@
 import React from "react";
-import { ButtonProps } from "./types";
-declare const hoverButton: React.FC<ButtonProps>;
-export default hoverButton;
+import { type PageProps } from "./types";
+declare const Page: React.FC<PageProps>;
+export default Page;

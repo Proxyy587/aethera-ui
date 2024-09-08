@@ -1,9 +1,10 @@
-import React from 'react';
+import React$1 from 'react';
 
-type ButtonProps = {
+interface PageProps {
     title: string;
-};
+    children: React.ReactNode;
+}
 
-declare const hoverButton: React.FC<ButtonProps>;
+declare const Page: React$1.FC<PageProps>;
 
-export { hoverButton as Button };
+export { Page as Button };
